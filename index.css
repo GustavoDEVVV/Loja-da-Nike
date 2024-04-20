@@ -1,0 +1,113 @@
+body{
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+.logo-e-login{
+    
+    display: flex;
+}
+
+.logo-e-login #jordan{
+    
+    margin-left: 12px;
+}
+
+.logo-e-login h1{
+    font-size: 1rem;
+    margin-left: 19px;
+}
+
+.logo-e-login a{
+    padding: 4px;
+    text-decoration: none;
+    margin-top: 6px;
+    font-size: 1.2rem;
+}
+
+#entrar{
+    margin-right: 0;
+    color: black;
+}
+
+#ajuda{
+    
+    margin-left: 1120px;
+    color: black;
+}
+
+/* header */
+header{
+    background-color: #ffff;
+    width: 1357px;
+    height: 70px;
+    display: flex;
+
+}
+
+header #logo{
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 22px;
+    width: 90px;
+    
+}
+
+header a{
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 22px;
+    color: black;
+    margin-left: 70px;
+}
+
+input{
+    border: none;
+    background-color: rgba(229, 229, 229, 0.795);
+    width: 150px;
+    margin-top: 12px;
+    margin-left: 400px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+input::placeholder {
+    text-indent: 10px;
+}
+
+header ion-icon{
+
+    font-size: 1.5rem;
+    margin-top: 19px;
+    margin-left: 12px;
+}
+
+
+/* section de esportes */
+.esportes{
+    margin-top: 20px;
+    background-color: aliceblue;
+
+}
+
+.esportes img{
+
+    width: 700px;
+    height: 600px;
+    margin-left: 50vh;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: #ffff;
+    width: 10%;
+    height: 50px;
+    border-radius: 1rem;
+    margin-top: 12px;
+    margin-left: 93vh;
+}
