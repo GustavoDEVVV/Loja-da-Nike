@@ -91,86 +91,41 @@ input::placeholder {
 }
 
 header ion-icon{
-
+    
     font-size: 1.5rem;
     margin-top: 19px;
     margin-left: 12px;
 }
 
 
-/* section de esportes */
+.esporte{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.esportes img{
+    
+    width: 100%;
+}
+
+.esportes descricao{
+    
+    font-family: "Raleway", sans-serif;
+    padding: 9px;
+    line-height: 1.9;
+    
+}
+
 .esportes{
-    margin-top: 10px;
-    background-color: #f3f3f3;
-    
+    width: 20%;
+    margin: 25px;
 }
 
-.esportes #banner_camisas{
-    
-    transition: 4s;
-    width: 700px;
-    height: 500px;
-    margin-left: 50vh;
-}
+.esportes img:hover{
 
-.esportes #banner-sapatos{
-    width: 900px;
-    height: 500px;
-    transition: 6s;
-    margin-left: 35vh;
-}
-
-.esportes #banner_esportes{
-    width: 900px;
-    height: 500px;
-    transition: 7s;
-    margin-left: 35vh;    
-}
-
-button{
-    border: none;
-    background-color: black;
-    color: #ffff;
-    width: 10%;
-    font-family: "Bebas Neue", sans-serif;
-    height: 40px;
-    font-size: 1.2rem;
-    border-radius: 3rem;
-    margin-top: 24px;
-    cursor: pointer;
-    margin-bottom: 44px;
-    margin-left: 93vh;
-    transition: 1s;
-}
-
-button:hover{
-    background-color: transparent;
-    color: black;
-    border: 2px solid black;
-}
-
-
-.esportes .subtitulo{
-    font-size: 0.9rem;
-    text-align: center;
-    margin-bottom: 0;
-    font-family: "Raleway", sans-serif;
-}
-
-.esportes .subtitulo2{
-    font-size: 0.9rem;
-    text-align: center;
-    margin-top: 0;
-    font-family: "Raleway", sans-serif;
-}
-
-.esportes .titulo{
-
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: "Bebas Neue", sans-serif;
+    transform: scale(1.1);
 }
 
 #camisas:hover{
@@ -183,16 +138,4 @@ button:hover{
 
 #sapatos:hover{
     color: aqua;
-}
-
-#btn-1:hover{
-    border:2px solid red;
-}
-
-#btn-2:hover{
-    border:2px solid blueviolet;
-}
-
-#btn-3:hover{
-    border:2px solid aqua;
 }

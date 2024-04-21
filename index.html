@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Nike</title>
 </head>
@@ -17,24 +25,49 @@
     </div>
 
     <header>
-        <img id="logo" src="logo.svg" alt="">
 
-        <a href="#">Camisas</a>
-        <a href="#">Sapatos</a>
-        <a href="#">Esportes</a>
+        <a id="logo" href="index.html">
+            <img id="logo" src="logo.svg" alt="">
+        </a>
+
+        <a id="camisas" href="camisas.html">Camisas</a>
+        <a id="sapatos" href="sapatos.html">Sapatos</a>
+        <a id="esportes" href="esportes.html">Esportes</a>
 
         <label for="pesquisa">
-            <input type="text" id="pesquisa" class=".input-with-margin" name="pesquisa" placeholder= "Buscar">
+            <input type="text" id="pesquisa" class=".input-with-margin" name="pesquisa" placeholder="Buscar">
         </label>
 
         <ion-icon name="bag-outline"></ion-icon>
     </header>
 
     <section class="esportes">
-        <img src="Banner-Camisa-Selecao-2024-Desk.png" alt="">
-        <button>Ver mais</button>
+        <img id="banner_camisas" src="./img/index/Banner-Camisa-Selecao-2024-Desk.png" alt="">
+        <p class="subtitulo">Inspirada no Talento</p>
+        <h1 class="titulo">Novas camisas do Brasil 2024</h1>
+        <p class="subtitulo2">A nova coleção celebra a vasta herança natural e cultural do país.</p>
 
-        <img id="banner-sapatos" src="Banner-sapatos.PNG" alt="">
+        <a href="camisas.html">
+            <button id="btn-1">Ver mais</button>
+        </a>
+
+        <img id="banner-sapatos" src="./img/index/Banner-sapatos.PNG" alt="">
+        <p class="subtitulo">Nike Invicible 3</p>
+        <h1 class="titulo">Sinta para acreditar</h1>
+        <p class="subtitulo2">Veja esse e outros novos lançamentos</p>
+
+        <a href="">
+            <button id="btn-2">Acessar</button>
+        </a>
+
+        <img id="banner_esportes" src="./img/index/Banner-esportes.PNG" alt="">
+        <p class="subtitulo">Lançamento</p>
+        <h1 class="titulo">Mad ready pack</h1>
+        <p class="subtitulo2">Com precisão, toque e velocidade em seus pés, você está pronto para tudo</p>
+
+        <a href="">
+            <button id="btn-3">Lançamentos</button>
+        </a>
     </section>
 
 
