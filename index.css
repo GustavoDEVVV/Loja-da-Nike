@@ -65,9 +65,15 @@ header a{
     text-decoration: none;
     font-size: 1.3rem;
     padding: 22px;
+    margin-bottom: 0;
     color: black;
     margin-left: 70px;
     font-family: "Bebas Neue", sans-serif;
+}
+
+header .links{
+
+    margin-top: 1.5em;
 }
 
 header a:hover{
@@ -107,18 +113,21 @@ header ion-icon{
 
 .esportes #banner_camisas{
     width: 700px;
+    max-width: 100%;
     height: 500px;
     margin-left: 50vh;
 }
 
 .esportes #banner-sapatos{
     width: 900px;
+    max-width: 100%;
     height: 500px;
     margin-left: 35vh;
 }
 
 .esportes #banner_esportes{
     width: 900px;
+    max-width: 100%;
     height: 500px;
     margin-left: 35vh;    
 }

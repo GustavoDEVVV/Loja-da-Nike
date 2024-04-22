@@ -1,4 +1,4 @@
-@media(width <= 1920px){
+@media(max-width <= 1920px) and (min-width <= 1021){
 
     
     #ajuda{
@@ -33,7 +33,7 @@
     .esportes #banner_esportes{
         margin-left: 32em;
     }
-    
+
     #btn-1{
         
         margin-left: 46.9em;
@@ -61,7 +61,7 @@
 
 }
 
-@media(width <= 576px){
+@media(width <= 768px){
 
     .logo-e-login{
 
@@ -71,7 +71,7 @@
     header{
 
         display: block;
-        width: 36em;
+        width: 48.5em;
         height: 9em;
     }
 
@@ -84,6 +84,7 @@
     header .links{
 
         font-size: 0.8rem;
+        margin-left: 8em;
         margin-top: 1em;
         
     }
@@ -91,12 +92,58 @@
     input{
 
         margin-left: 10em;
-        width: 20em;
+        width: 40em;
     }
 
     ion-icon{
 
         display: none;
+    }
+
+    .esportes #banner_camisas{
+        margin-left: 10em;
+        width: 30em;
+        height: 20em;
+    }
+    
+    .esportes #banner-sapatos{
+        margin-left: 10em;
+        width: 30em;
+        height: 20em;
+    }
+    
+    .esportes #banner_esportes{
+        margin-left: 10em;
+        width: 30em;
+        height: 20em;
+    }    
+
+    #btn-1{
+        
+        margin-left: 19em;
+        width: 5em;
+    }
+
+    #btn-2{
+        margin-left: 19em;
+        width: 5em;
+    }
+
+    #btn-3{
+        margin-left: 16em;
+        width: 10em;
+    }
+
+    .esportes .subtitulo{
+        margin-left: 5em;
+    }
+
+    .esportes .titulo{
+        margin-left: 2em;
+    }
+
+    .esportes .subtitulo2{
+        margin-left: 5rem;
     }
 
 }
