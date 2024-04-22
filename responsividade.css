@@ -1,0 +1,102 @@
+@media(width <= 1920px){
+
+    
+    #ajuda{
+        
+        margin-left: 100rem;
+    }
+    
+    header{
+
+        width: 900rem;
+    }
+
+    .links{
+
+        margin-top: 1.5em;
+    }
+
+    input{
+
+        margin-left: 900px;
+
+    }
+
+    .esportes #banner_camisas{
+        margin-left: 39rem;
+    }
+    
+    .esportes #banner-sapatos{
+        margin-left: 32em;
+    }
+    
+    .esportes #banner_esportes{
+        margin-left: 32em;
+    }
+    
+    #btn-1{
+        
+        margin-left: 46.9em;
+    }
+
+    #btn-2{
+        margin-left: 46.5em;
+    }
+
+    #btn-3{
+        margin-left: 46.5em;
+    }
+    
+    .esportes .subtitulo{
+        margin-left: 5em;
+    }
+
+    .esportes .titulo{
+        margin-left: 2em;
+    }
+
+    .esportes .subtitulo2{
+        margin-left: 5rem;
+    }
+
+}
+
+@media(width <= 576px){
+
+    .logo-e-login{
+
+        display: none;
+    }
+
+    header{
+
+        display: block;
+        width: 36em;
+        height: 9em;
+    }
+
+    header #logo{
+
+        width: 2em;
+        margin-top: 1em;
+    }
+
+    header .links{
+
+        font-size: 0.8rem;
+        margin-top: 1em;
+        
+    }
+
+    input{
+
+        margin-left: 10em;
+        width: 20em;
+    }
+
+    ion-icon{
+
+        display: none;
+    }
+
+}

@@ -106,8 +106,6 @@ header ion-icon{
 }
 
 .esportes #banner_camisas{
-    
-    transition: 4s;
     width: 700px;
     height: 500px;
     margin-left: 50vh;
@@ -116,14 +114,12 @@ header ion-icon{
 .esportes #banner-sapatos{
     width: 900px;
     height: 500px;
-    transition: 6s;
     margin-left: 35vh;
 }
 
 .esportes #banner_esportes{
     width: 900px;
     height: 500px;
-    transition: 7s;
     margin-left: 35vh;    
 }
 
