@@ -1,21 +1,18 @@
-@media(min-width: 1440px) and (max-width: 2000px){
+@media(min-width: 1440px) and (max-width: 3000px){
 
     
     #ajuda{
         
-        margin-left: 100rem;
+        margin-left: 80rem;
     }
     
     header{
-
-        width: 90rem;
         height: 5rem;
-        border-radius: 0 2rem 2rem 0;
+        max-width: 100%;
     }
 
     header a{
-        padding: 0;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     
     header #logo{
@@ -28,14 +25,13 @@
     }
 
     .links{
-        
         margin-top: 1.5em;
     }
     
     input{        
-        width: 300px;
-        height: 50px;
-        margin-left: 400px;
+        width: 190px;
+        height: 40px;
+        margin-left: 55em;
     }
 
     input::placeholder {
@@ -45,30 +41,16 @@
 
     #btn-1{
         
-        margin-left: 41em;
+        margin-left: 15em;
     }
 
     #btn-2{
-        margin-left: 41em;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     #btn-3{
-        margin-left: 41em;
-    }
-    
-    .esportes .subtitulo{
-        margin-left: 0;
-        margin-right: 15em;
-    }
-
-    .esportes .titulo{
-        margin-left: 0;
-        margin-right: 7em;
-    }
-
-    .esportes .subtitulo2{
-        margin-left: 0;
-        margin-right: 15em;
+        margin-left: 15em;
     }
 
 }
@@ -76,14 +58,16 @@
 @media(width <= 768px){
 
     .logo-e-login{
-
         display: none;
     }
 
-    header{
+    #teste{
+        display: inline-block;
+    }
 
+    header{
+        max-width: 100%;
         display: block;
-        width: 48.5em;
         height: 9em;
     }
 
@@ -96,14 +80,14 @@
     header .links{
 
         font-size: 0.8rem;
-        margin-left: 8em;
+        /* margin-left: 8em; */
         margin-top: 1em;
         
     }
 
     input{
 
-        margin-left: 10em;
+        margin-left: 1em;
         width: 40em;
     }
 
@@ -112,23 +96,29 @@
         display: none;
     }
 
-    .esportes #banner_camisas{
-        margin-left: 10em;
-        width: 30em;
-        height: 20em;
-    }
-    
-    .esportes #banner-sapatos{
-        margin-left: 10em;
-        width: 30em;
-        height: 20em;
-    }
-    
     .esportes #banner_esportes{
-        margin-left: 10em;
-        width: 30em;
-        height: 20em;
-    }    
+        margin: 0;
+    }
+
+    .esportes{
+        gap: 0;
+    }
+
+    .camisas .textos{
+        margin: 0;
+    }
+
+    .academia #video{
+        margin: 0;
+    }
+    
+    .academia{
+        display: block;
+    }
+
+    .subtitulo .subtitulo2 .titulo{
+        margin-left: 0;
+    }
 
     #btn-1{
         
