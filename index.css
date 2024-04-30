@@ -3,7 +3,7 @@
 
 body{
     overflow-x: hidden;
-    background-color: #f3f3f3;
+    background-color: #0D0D0D;
     margin: 0;
 }
 
@@ -18,38 +18,34 @@ body{
     margin-left: 12px;
 }
 
-.logo-e-login h1{
-    font-size: 1.2rem;
-    font-family: "Bebas Neue", sans-serif;
-    margin-left: 19px;
-}
-
 .logo-e-login a{
     padding: 4px;
     text-decoration: none;
-    margin-top: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     font-family: "Raleway", sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #entrar{
     margin-right: 0;
-    color: black;
+    color: aliceblue;
 }
 
 #ajuda{
     
-    margin-left: 1120px;
-    color: black;
+    margin-left: 1220px;
+    color: aliceblue;
 }
 
 /* header */
 header{
-    background-color: #ffff;
     width: 1357px;
+    border-bottom: 2px solid #CEA96E;
     height: 70px;
     margin-bottom: 5%;
     display: flex;
+    box-shadow:0px 5px 10px #cea96e92;
 }
 
 header #logo{
@@ -66,8 +62,9 @@ header a{
     font-size: 1.3rem;
     padding: 22px;
     margin-bottom: 0;
-    color: black;
+    color: #CEA96E;
     margin-left: 70px;
+    transition: 0.9s;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -83,7 +80,7 @@ header a:hover{
 
 input{
     border: none;
-    background-color: rgba(229, 229, 229, 0.795);
+    background-color: white;
     width: 150px;
     margin-top: 12px;
     margin-left: 400px;
@@ -100,6 +97,7 @@ header ion-icon{
 
     font-size: 1.5rem;
     margin-top: 19px;
+    color: #CEA96E;
     margin-left: 12px;
 }
 
@@ -107,35 +105,147 @@ header ion-icon{
 /* section de esportes */
 .esportes{
     margin-top: 10px;
-    background-color: #f3f3f3;
-    
-}
-
-.esportes #banner_camisas{
-    width: 700px;
-    max-width: 100%;
-    height: 500px;
-    margin-left: 50vh;
-}
-
-.esportes #banner-sapatos{
-    width: 900px;
-    max-width: 100%;
-    height: 500px;
-    margin-left: 35vh;
+    gap: 19%;
+    display: flex;
 }
 
 .esportes #banner_esportes{
-    width: 900px;
     max-width: 100%;
-    height: 500px;
-    margin-left: 35vh;    
+    height: 400px;
+    margin-left: 20vh;
+}
+
+
+.textos{
+    display: block;
+    margin-top: 10%;
+}
+
+.esportes .subtitulo{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.esportes .subtitulo2{
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.esportes .titulo{
+    
+    text-align: center;
+    font-size: 3rem;
+    color: #CEA96E;
+    margin-top: 0;
+    align-items: center;
+    margin-bottom: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.camisas{
+    display: flex;
+    gap: 19%;
+    margin-top: 15vh;
+}
+
+.camisas .textos{
+    display: block;
+    margin-left: 19vh;
+}
+
+.camisas .subtitulo{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.camisas .subtitulo2{
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.camisas .titulo{
+    text-align: center;
+    font-size: 3rem;
+    color: #3B8FD9;
+    margin-top: 0;
+    align-items: center;
+    margin-bottom: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.camisas #camisa{
+
+    max-width: 100%;
+    height: 300px;
+    
+}
+
+.academia{
+
+    display: flex;
+    gap: 12%;
+    margin-top: 21vh;
+}
+
+.academia #video{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 2em;
+    margin-left: 15vh;
+}
+
+.academia .textos{
+    display: block;
+}
+
+.academia .subtitulo{
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.academia .subtitulo2{
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.academia .titulo{
+    text-align: center;
+    font-size: 3rem;
+    color: rosybrown;
+    margin-top: 0;
+    align-items: center;
+    margin-bottom: 0;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 button{
     border: none;
-    background-color: black;
-    color: #ffff;
+    background-color: white;
+    color: black;
     width: 10%;
     font-family: "Bebas Neue", sans-serif;
     height: 40px;
@@ -145,7 +255,8 @@ button{
     cursor: pointer;
     margin-bottom: 44px;
     margin-left: 93vh;
-    transition: 1s;
+    margin-top: 5vh;
+    transition: 0.9s;
 }
 
 button:hover{
@@ -154,50 +265,29 @@ button:hover{
     border: 2px solid black;
 }
 
-
-.esportes .subtitulo{
-    font-size: 0.9rem;
-    text-align: center;
-    margin-bottom: 0;
-    font-family: "Raleway", sans-serif;
-}
-
-.esportes .subtitulo2{
-    font-size: 0.9rem;
-    text-align: center;
-    margin-top: 0;
-    font-family: "Raleway", sans-serif;
-}
-
-.esportes .titulo{
-
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: "Bebas Neue", sans-serif;
-}
-
 #camisas:hover{
-    color: red;
+    color: white;
 }
 
 #esportes:hover{
-    color: blueviolet;
+    color: white;
 }
 
 #sapatos:hover{
-    color: aqua;
+    color: white;
 }
 
 #btn-1:hover{
-    border:2px solid red;
+    border:2px solid #CEA96E;
+    color: #CEA96E;
 }
 
 #btn-2:hover{
-    border:2px solid blueviolet;
+    border:2px solid #3B8FD9;
+    color: #3B8FD9;
 }
 
 #btn-3:hover{
-    border:2px solid aqua;
+    border:2px solid rosybrown;
+    color: rosybrown;
 }
