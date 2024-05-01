@@ -80,7 +80,6 @@
     header .links{
 
         font-size: 0.8rem;
-        /* margin-left: 8em; */
         margin-top: 1em;
         
     }
@@ -88,7 +87,7 @@
     input{
 
         margin-left: 1em;
-        width: 40em;
+        width: 20em;
     }
 
     ion-icon{
@@ -98,54 +97,56 @@
 
     .esportes #banner_esportes{
         margin: 0;
+        width: 70%;
+        height: 10%;
     }
 
     .esportes{
         gap: 0;
-    }
-
-    .camisas .textos{
-        margin: 0;
-    }
-
-    .academia #video{
-        margin: 0;
+        display: block;
     }
     
     .academia{
         display: block;
     }
 
+    .camisas{
+        display: block;
+    }
+
+    .camisas .textos{
+        margin: 0;
+    }
+    
+    .camisas #camisa{
+        width: 70%;
+        height: 10%;
+    }
+
+    .academia #video{
+        margin: auto;
+        width: 80%;
+        border-radius: 1rem;
+    }
+    
+    
     .subtitulo .subtitulo2 .titulo{
         margin-left: 0;
     }
-
-    #btn-1{
-        
-        margin-left: 19em;
-        width: 5em;
+    
+    #btn-1{        
+        margin-left: 1em;
+        width: 9em;
     }
-
+    
     #btn-2{
-        margin-left: 19em;
-        width: 5em;
+        margin-left: 1em;
+        width: 9em;
     }
-
+    
     #btn-3{
-        margin-left: 16em;
-        width: 10em;
-    }
-
-    .esportes .subtitulo{
-        margin-left: 6.5em;
-    }
-
-    .esportes .titulo{
-        margin-left: 3.5em;
-    }
-
-    .esportes .subtitulo2{
-        margin-left: 6.5rem;
+        margin-left: 1em;
+        width: 15em;
     }
 
 }
