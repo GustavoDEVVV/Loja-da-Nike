@@ -3,9 +3,12 @@
 
 body{
 
-    background-image: url('./img/Blue\ Modern\ Desktop\ Wallpaper.jpg');
+    background-image: url('./img/login/Fundo\ login.jpg');
     background-size: cover;
     background-position: center;
+    height: 100%;
+    background-color: #0D0D0D;
+    background-repeat: no-repeat;
 }
 
 
@@ -14,7 +17,7 @@ body{
     width: 30%;
     border-radius: 1rem;
     height: 60%;
-    border: 2px solid black;
+    border: 2px solid #CEA96E;
     margin: 10% auto;
 }
 
@@ -23,6 +26,7 @@ body{
     font-family: "bebas Neue", sans-serif;
     text-align: center;
     align-items: center;
+    color: white;
 }
 
 .card-login .label-email{
@@ -34,15 +38,16 @@ body{
 
 .label-email input{
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #CEA96E;
     border-radius: 3rem;
     width: 40%;
     height: 30px;
+    color: white;
 }
 
 input::placeholder{
 
-    color: black;
+    color: #CEA96E;
     font-style: "Raleway", sans-serif;
     font-family: "Raleway", sans-serif;
     padding: 9px;
@@ -57,9 +62,10 @@ input::placeholder{
 
 .label-senha input{
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid #CEA96E;
     border-radius: 3rem;
     width: 40%;
+    color: white;
     height: 30px;
 }
 
@@ -68,8 +74,8 @@ button{
     text-align: center;
     align-items: center;
     margin-left: 25%;
-    background-color: black;
-    color: #ffff;
+    background-color: white;
+    color: black;
     width: 50%;
     font-family: "Bebas Neue", sans-serif;
     height: 30px;
@@ -88,7 +94,7 @@ button{
 
 .informacoes p{
 
-    color: black;
+    color: white;
     padding: 30px;
     padding-top: 0px;
     transition: 0.5s;
@@ -101,17 +107,17 @@ a{
 
 
 #voltar:hover{
-    color: red;
+    color: #CEA96E;
     text-decoration: underline;
 }
 
 #senha:hover{
-    color: aqua;
+    color: #CEA96E;
     text-decoration: underline;
 }
 
 button:hover{
-    border: 2px solid blueviolet;
+    border: 2px solid #CEA96E;
     background-color: transparent;
-    color: black;
+    color: white;
 }

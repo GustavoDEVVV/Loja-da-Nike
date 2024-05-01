@@ -3,7 +3,10 @@
 
 body{
     overflow-x: hidden;
-    background-color: #f3f3f3;
+    background-color: #0D0D0D;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
     margin: 0;
 }
 
@@ -18,45 +21,42 @@ body{
     margin-left: 12px;
 }
 
-.logo-e-login h1{
-    font-size: 1.2rem;
-    font-family: "Bebas Neue", sans-serif;
-    margin-left: 19px;
-}
-
 .logo-e-login a{
     padding: 4px;
     text-decoration: none;
-    margin-top: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     font-family: "Raleway", sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #entrar{
     margin-right: 0;
-    color: black;
+    color: aliceblue;
 }
 
 #ajuda{
     
-    margin-left: 1120px;
-    color: black;
+    margin-left: 1220px;
+    color: aliceblue;
 }
 
 /* header */
 header{
-    background-color: #ffff;
-    width: 1357px;
+    max-width: 100%;
+    border-bottom: 2px solid #CEA96E;
     height: 70px;
     margin-bottom: 5%;
     display: flex;
+    box-shadow:0px 5px 10px #cea96e92;
 }
 
 header #logo{
     align-items: center;
     text-align: center;
     margin-left: 18px;
-    width: 90px;
+    margin-top: 0.6em;
+    width: 60px;
     
 }
 
@@ -64,10 +64,16 @@ header a{
 
     text-decoration: none;
     font-size: 1.3rem;
-    padding: 22px;
-    color: black;
-    margin-left: 70px;
+    margin-bottom: 0;
+    color: #CEA96E;
+    margin-left: 50px;
+    transition: 0.9s;
     font-family: "Bebas Neue", sans-serif;
+}
+
+header .links{
+
+    margin-top: 1em;
 }
 
 header a:hover{
@@ -77,7 +83,7 @@ header a:hover{
 
 input{
     border: none;
-    background-color: rgba(229, 229, 229, 0.795);
+    background-color: white;
     width: 150px;
     margin-top: 12px;
     margin-left: 400px;
@@ -90,10 +96,15 @@ input::placeholder {
     text-indent: 10px;
 }
 
+#teste{
+    display: none;
+}
+
 header ion-icon{
-    
+
     font-size: 1.5rem;
     margin-top: 19px;
+    color: #CEA96E;
     margin-left: 12px;
 }
 
@@ -109,12 +120,12 @@ header ion-icon{
     width: 100%;
 }
 
-.camisas descricao{
+.camisas .descricao{
     
     font-family: "Raleway", sans-serif;
     padding: 9px;
     line-height: 1.9;
-    
+    color: aliceblue;
 }
 
 .camisas{
@@ -128,13 +139,13 @@ header ion-icon{
 }
 
 #camisas:hover{
-    color: red;
+    color: white;
 }
 
 #esportes:hover{
-    color: blueviolet;
+    color: white;
 }
 
 #sapatos:hover{
-    color: aqua;
+    color: white;
 }
