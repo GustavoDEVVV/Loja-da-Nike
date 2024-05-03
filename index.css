@@ -48,7 +48,7 @@ header{
     height: 70px;
     margin-bottom: 5%;
     display: flex;
-    box-shadow:0px 5px 10px #cea96e92;
+    box-shadow:0px 5px 10px #cea96eda;
 }
 
 header #logo{
