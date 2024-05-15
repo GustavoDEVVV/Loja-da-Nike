@@ -167,3 +167,14 @@ header ion-icon{
     color: white;
 }
 
+.button_crud .enviarBtn{
+
+    background-color: transparent;
+    border: none;
+}
+
+.button_crud .enviarBtn ion-icon{
+
+    color: white;
+    font-size: 1.5rem;
+}

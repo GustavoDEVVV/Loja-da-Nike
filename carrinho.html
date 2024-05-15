@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrinho.css">
+    <title>Carrinho</title>
+    <link rel="icon" type="image/x-icon" href="./img/index/favicon.png" />
+</head>
+
+<body>
+    <div class="logo-e-login">
+        <a href="https://atendimento.nike.com.br/hc/pt-br" id="ajuda">Ajuda |</a>
+        <a href="login.html" id="entrar">Entrar</a>
+    </div>
+
+    <header>
+
+        <a id="logo" href="index.html">
+            <img id="logo" src="img/index/logo.png" alt="">
+        </a>
+
+        <div class="links">
+            <a id="camisas" href="camisas.html">Camisas</a>
+            <a id="sapatos" href="sapatos.html">Sapatos</a>
+            <a id="esportes" href="esportes.html">Esportes</a>
+            <a id="teste" href="login.html">Login</a>
+        </div>
+
+        <label for="pesquisa">
+            <input type="text" id="pesquisa" class=".input-with-margin" name="pesquisa" placeholder="Buscar">
+        </label>
+
+        <div class="carrinho">
+            <a href="carrinho.html">
+                <ion-icon name="bag-outline"></ion-icon>
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <img id="imagemRecebida" alt="">
+
+    </div>
+    <button id="tirar_do_carrinho">tirar do carrinho</button>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    var imagemSrc = localStorage.getItem("imagemSrc");
+    if (imagemSrc) {
+        document.getElementById("imagemRecebida").src = imagemSrc;
+    } else {
+        console.error("Nenhuma imagem foi enviada.");
+    }
+
+    // Adicionar evento de clique ao botão "tirar_do_carrinho"
+    document.getElementById("tirar_do_carrinho").addEventListener("click", function () {
+        // Remover a imagem do armazenamento local
+        localStorage.removeItem("imagemSrc");
+        // Limpar a imagem exibida
+        document.getElementById("imagemRecebida").src = "";
+    });
+});
+    </script>
+</body>
+
+</html>

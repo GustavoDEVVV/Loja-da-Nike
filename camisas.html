@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="camisas.css">
     <link rel="stylesheet" href="responsividade.css">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./img/index/favicon.png" />
+    <title>Camisas</title>
 </head>
+
 <body>
     <div class="logo-e-login">
-        <a href="#" id="ajuda">Ajuda |</a>
+        <a href="https://atendimento.nike.com.br/hc/pt-br" id="ajuda">Ajuda |</a>
         <a href="login.html" id="entrar">Entrar</a>
     </div>
 
@@ -37,7 +40,11 @@
             <input type="text" id="pesquisa" class=".input-with-margin" name="pesquisa" placeholder="Buscar">
         </label>
 
-        <ion-icon name="bag-outline"></ion-icon>
+        <div class="carrinho">
+            <a href="carrinho.html">
+                <ion-icon name="bag-outline"></ion-icon>
+            </a>
+        </div>
     </header>
 
     <section class="camisa">
@@ -49,6 +56,12 @@
                 <div class="tipo">Futebol</div>
                 <div class="preco">R$332,49</div>
             </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
+            </div>
         </div>
 
         <div class="camisas">
@@ -57,6 +70,12 @@
                 <div class="titulo">Camisa Nike Brasil 2024/25 Jogador Masculina</div>
                 <div class="tipo">Futebol</div>
                 <div class="preco">R$664,99</div>
+            </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
             </div>
         </div>
 
@@ -67,6 +86,12 @@
                 <div class="tipo">Futebol</div>
                 <div class="preco">R$332,49</div>
             </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
+            </div>
         </div>
 
         <div class="camisas">
@@ -75,6 +100,12 @@
                 <div class="titulo">Camisa Nike Corinthians I 2023/24 Torcedora Pro Feminina</div>
                 <div class="tipo">Futebol</div>
                 <div class="preco">R$161,49</div>
+            </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
             </div>
         </div>
 
@@ -85,6 +116,12 @@
                 <div class="tipo">Casual</div>
                 <div class="preco">R$75,99</div>
             </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
+            </div>
         </div>
 
         <div class="camisas">
@@ -93,6 +130,12 @@
                 <div class="titulo">Camisa Nike Dri-FIT Uniformes</div>
                 <div class="tipo">Casual</div>
                 <div class="preco">R$75,99</div>
+            </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
             </div>
         </div>
 
@@ -103,6 +146,12 @@
                 <div class="tipo">Casual</div>
                 <div class="preco">R$94,99</div>
             </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
+            </div>
         </div>
 
         <div class="camisas">
@@ -112,11 +161,36 @@
                 <div class="tipo">Futebol</div>
                 <div class="preco">R$379,99</div>
             </div>
+
+            <div class="button_crud">
+                <a href="#">
+                    <button class="enviarBtn"><ion-icon name="add-circle-outline"></ion-icon></button>
+                </a>
+            </div>
         </div>
 
     </section>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var buttons = document.querySelectorAll('.enviarBtn');
+            buttons.forEach(function (button) {
+                button.addEventListener("click", function () {
+                    var img = this.closest('.camisas').querySelector('img');
+                    if (img) {
+                        var imgSrc = img.getAttribute('src');
+                        localStorage.setItem("imagemSrc", imgSrc);
+                        window.location.href = "carrinho.html";
+                    } else {
+                        console.error("Nenhuma imagem encontrada.");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>

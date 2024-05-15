@@ -48,7 +48,7 @@ header{
     height: 70px;
     margin-bottom: 5%;
     display: flex;
-    box-shadow:0px 5px 10px #cea96e92;
+    box-shadow:0px 5px 10px #cea96eda;
 }
 
 header #logo{
@@ -108,76 +108,35 @@ header ion-icon{
     margin-left: 12px;
 }
 
-
-.esporte{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.esportes img{
-    
-    width: 90%;
+.container img{
+    width: 28%;
     border-radius: 1rem;
     box-shadow: 5px 5px 10px #cea96e7a;
 }
 
-.esportes .descricao{
-    
-    padding: 9px;
-    line-height: 1.3;
-    color: aliceblue;
-}
-
-.titulo{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.5em;
-    color: #CEA96E;
-}
-
-.tipo{
-    font-family: "Raleway", sans-serif;
-    font-size: 1.3em;
-    color: white;
-}
-
-.preco{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.5em;
-    color: white;
-}
-
-.esportes{
-    width: 20%;
-    margin: 25px;
-}
-
-.esportes img:hover{
-
-    transform: scale(1.1);
-}
-
-#camisas:hover{
-    color: white;
-}
-
-#esportes:hover{
-    color: white;
-}
-
-#sapatos:hover{
-    color: white;
-}
-
-.button_crud .enviarBtn{
-
-    background-color: transparent;
+button{
     border: none;
+    background-color: white;
+    color: black;
+    width: 10%;
+    font-family: "Bebas Neue", sans-serif;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    margin-top: 24px;
+    cursor: pointer;
+    margin-bottom: 44px;
+    margin-top: 5vh;
+    transition: 0.9s;
 }
 
-.button_crud .enviarBtn ion-icon{
+button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
 
-    color: white;
-    font-size: 1.5rem;
+button:hover{
+    border:2px solid #CEA96E;
+    color: #CEA96E;
 }
