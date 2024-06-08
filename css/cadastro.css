@@ -69,6 +69,38 @@ input::placeholder{
     height: 30px;
 }
 
+.label-nome input{
+    background-color: transparent;
+    border: 2px solid #CEA96E;
+    border-radius: 3rem;
+    width: 40%;
+    color: white;
+    height: 30px;
+}
+
+.card-login .label-nome{
+
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.label-numero input{
+    background-color: transparent;
+    border: 2px solid #CEA96E;
+    border-radius: 3rem;
+    width: 40%;
+    color: white;
+    height: 30px;
+}
+
+.card-login .label-numero{
+
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
 button{
     border: none;
     text-align: center;
@@ -106,10 +138,10 @@ button{
 .card-login .informacoes{
 
     display: flex;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 
-#texto{
+.informacoes p{
 
     color: white;
     padding-top: 0px;
@@ -117,15 +149,6 @@ button{
     font-family: "Bebas Neue", sans-serif;
 }
 
-#texto1{
-
-    color: white;
-    margin-left: 5rem;
-    padding-top: 0px;
-    transition: 0.5s;
-    font-size: 0.9rem;
-    font-family: "Bebas Neue", sans-serif;
-}
 
 a{
     text-decoration: none;
