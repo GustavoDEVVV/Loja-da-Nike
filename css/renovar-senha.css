@@ -3,7 +3,7 @@
 
 body{
 
-    background-image: url('./img/login/Fundo\ login.jpg');
+    background-image: url('../img/login/Fundo\ login.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
