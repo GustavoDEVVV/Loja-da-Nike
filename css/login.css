@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
 
     background-image: url('../img/login/Fundo\ login.jpg');
     background-size: cover;
@@ -12,7 +12,7 @@ body{
 }
 
 
-.card-login{
+.card-login {
 
     width: 30%;
     border-radius: 1rem;
@@ -21,7 +21,7 @@ body{
     margin: 10% auto;
 }
 
-.card-login h1{
+.card-login h1 {
 
     font-family: "bebas Neue", sans-serif;
     text-align: center;
@@ -29,14 +29,14 @@ body{
     color: white;
 }
 
-.card-login .label-email{
+.card-login .label-email {
 
     text-align: center;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.label-email input{
+.label-email input {
     background-color: transparent;
     border: 2px solid #CEA96E;
     border-radius: 3rem;
@@ -45,7 +45,7 @@ body{
     color: white;
 }
 
-input::placeholder{
+input::placeholder {
 
     color: #CEA96E;
     font-style: "Raleway", sans-serif;
@@ -53,14 +53,14 @@ input::placeholder{
     padding: 9px;
 }
 
-.card-login .label-senha{
+.card-login .label-senha {
 
     text-align: center;
     align-items: center;
 
 }
 
-.label-senha input{
+.label-senha input {
     background-color: transparent;
     border: 2px solid #CEA96E;
     border-radius: 3rem;
@@ -69,7 +69,7 @@ input::placeholder{
     height: 30px;
 }
 
-button{
+button {
     border: none;
     text-align: center;
     align-items: center;
@@ -86,7 +86,7 @@ button{
     transition: 1s;
 }
 
-#voltar{
+#voltar {
     border: none;
     text-align: center;
     align-items: center;
@@ -103,13 +103,13 @@ button{
     transition: 1s;
 }
 
-.card-login .informacoes{
+.card-login .informacoes {
 
     display: flex;
     margin-left: 2rem;
 }
 
-#texto{
+#texto {
 
     color: white;
     padding-top: 0px;
@@ -117,8 +117,9 @@ button{
     font-family: "Bebas Neue", sans-serif;
 }
 
-#texto1{
+#texto1 {
 
+    display: flex;
     color: white;
     margin-left: 5rem;
     padding-top: 0px;
@@ -127,22 +128,25 @@ button{
     font-family: "Bebas Neue", sans-serif;
 }
 
-a{
+.nav{
+    display: flex;
+}
+a {
     text-decoration: none;
 }
 
 
-#voltar:hover{
+#voltar:hover {
     color: #CEA96E;
     text-decoration: underline;
 }
 
-#senha:hover{
+#senha:hover {
     color: #CEA96E;
     text-decoration: underline;
 }
 
-button:hover{
+button:hover {
     border: 2px solid #CEA96E;
     background-color: transparent;
     color: white;
