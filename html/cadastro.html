@@ -23,21 +23,21 @@
 
         <h1>Cadastro</h1>
 
-        <form>
+        <form method="post" action="../php/cadastrar.php">
             <div class="label-nome">
-                <input type="text" placeholder="Nome">
+                <input type="text" name="nome" placeholder="Nome" required>
             </div>
             <div class="label-email">
-                <input type="email" placeholder="Email">
+                <input type="email" name="email" placeholder="email@exemplo.com.br" required>
             </div>
             <div class="label-senha">
-                <input type="password" placeholder="Senha">
+                <input type="password" name="senha" placeholder="●●●●●●●●●●" required>
             </div>
             <div class="label-numero">
-                <input type="number" placeholder="Numero">
+                <input type="number" name="telefone" placeholder="(00) 0.0000.0000" required>
             </div>
 
-            <button type="submit">Sign in</button>
+            <button type="submit">Sign up</button>
         </form>
 
         <div class="informacoes">
