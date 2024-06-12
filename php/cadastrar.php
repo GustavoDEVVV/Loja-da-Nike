@@ -3,7 +3,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	$host 	= "localhost";
-	$bd 	= "base_turma01";
+	$bd 	= "lojanike";
 	$user 	= "root";
 	$pass 	= "";
 
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$email 		= $_POST['email'];
 		$senha 		= $_POST['senha'];
 
-		$sql = "INSERT INTO usuarios (nome, telefone, email, senha) VALUES (:nome, :telefone, :email, :senha)";
+		$sql = "INSERT INTO usuario (nome, telefone, email, senha) VALUES (:nome, :telefone, :email, :senha)";
 
 		$stmt = $pdo->prepare($sql);
 
