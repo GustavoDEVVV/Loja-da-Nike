@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-color: #0D0D0D;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+.logo-e-login{
+    
+    display: flex;
+}
+
+.logo-e-login #jordan{
+    
+    margin-left: 12px;
+}
+
+.logo-e-login a{
+    padding: 4px;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8rem;
+}
+
+#entrar{
+    margin-right: 0;
+    color: aliceblue;
+}
+
+#ajuda{
+    
+    margin-left: 1220px;
+    color: aliceblue;
+}
+
+/* header */
+header{
+    max-width: 100%;
+    border-bottom: 2px solid #CEA96E;
+    height: 70px;
+    margin-bottom: 5%;
+    display: flex;
+    box-shadow:0px 5px 10px #cea96e92;
+}
+
+header #logo{
+    align-items: center;
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 0.6em;
+    width: 60px;
+    
+}
+
+header a{
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    color: #CEA96E;
+    margin-left: 50px;
+    transition: 0.9s;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header .links{
+
+    margin-top: 1.5em;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+
+input{
+    border: none;
+    background-color: white;
+    width: 150px;
+    margin-top: 12px;
+    margin-left: 400px;
+    font-family: "Bebas Neue", sans-serif;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+input::placeholder {
+    text-indent: 10px;
+}
+
+#teste{
+    display: none;
+}
+
+header ion-icon{
+
+    font-size: 1.5rem;
+    margin-top: 19px;
+    color: #CEA96E;
+    margin-left: 12px;
+}
+
+.delete h2{
+    font-family: "bebas Neue", sans-serif;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#butao{
+    transition: 0.5s;
+}
+
+#butao:hover{
+    border: 2px solid #CEA96E;
+    background-color: transparent;
+    color: white;
+}
+
+a h1{
+    display: flex;
+    color: white;
+    margin-left: 5rem;
+    padding-top: 0px;
+    margin: 1.5%  0  0 47%;
+    font-size: 0.9rem;
+    font-family: "Raleway", sans-serif;
+    }
+    
+a{
+    text-decoration: none;
+}

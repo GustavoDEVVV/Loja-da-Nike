@@ -4,12 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deletar Registro</title>
+    <link rel="stylesheet" href="../css/delete.css">
+    <link rel="stylesheet" href="../css/responsividade.css">
 </head>
 <body>
-    <h2> Deletar regsitro</h2>
-    <form method = "post" action="deletar.php">
-    ID: <input type="number" name="id">
-    <input type = "submit" value="Excluir Registro">
-</form>
+
+    <div class="logo-e-login">
+        <a href="https://atendimento.nike.com.br/hc/pt-br" id="ajuda">Ajuda |</a>
+        <a href="./html/login.html" id="entrar">Entrar |</a>
+        <a href="./php/pesquisa.php" id="entrar">Pesquisar Usuários |</a>
+        <a href="./html/delete.html" id="entrar">Deletar Usuários</a>
+    </div>
+
+    <header>
+
+        <a id="logo" href="../index.html">
+            <img id="logo" src="../img/index/logo.png" alt="">
+        </a>
+
+        <div class="links">
+            <a id="camisas" href="../html/camisas.html">Camisas</a>
+            <a id="sapatos" href="../html/sapatos.html">Sapatos</a>
+            <a id="esportes" href="../html/esportes.html">Esportes</a>
+            <a id="teste" href="../html/login.html">Login</a>
+        </div>
+
+        <label for="pesquisa">
+            <input type="text" id="pesquisa" class=".input-with-margin" name="pesquisa" placeholder="Buscar">
+        </label>
+
+        <div class="carrinho">
+            <a href="./html/carrinho.html">
+                <ion-icon name="bag-outline"></ion-icon>
+            </a>
+            <ion-icon name="person-circle-outline"></ion-icon>
+        </div>
+    </header>
+
+    <section class="delete">            
+        <h2> Deletar regsitro</h2>
+        <form  method = "post" action="../php/deletar.php">
+            <input style="margin-left: 0px;" type="number" name="id" placeholder="Digite o ID">
+            <input id="butao" style="margin-left: 0px;" type = "submit" value="Excluir Registro">
+        </form>
+    </section>
+
+    <a href="../index.html">
+        <h1>Voltar pro menu</h1>
+    </a>
+
 </body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>

@@ -3,7 +3,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	$host 	= "localhost";
-	$bd 	= "base_turma01";
+	$bd 	= "lojanike";
 	$user 	= "root";
 	$pass 	= "";
 
@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		
 
         
-        $sql = "DELETE FROM usuarios  WHERE id = :id";
+        $sql = "DELETE FROM usuario  WHERE id = :id";
 
         $stmt = $pdo->prepare($sql);
 

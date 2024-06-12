@@ -10,8 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/renovar-senha.css">
@@ -23,15 +22,15 @@
 
         <h1>Renove a sua senha</h1>
 
-        <form>
+        <form id="renovarSenhaForm" method="post" action="../php/atualiza.php" onsubmit="return validarSenha()">
             <div class="label-email">
-                <input type="email" placeholder="Digite seu Email">
+                <input id="email" name="email" type="email" placeholder="Digite seu Email">
             </div>
             <div class="label-senha">
-                <input type="password" placeholder="Senha">
+                <input id="senha" name="senha" type="password" placeholder="Senha">
             </div>
             <div class="label-senha">
-                <input type="password" placeholder="Confirme a senha">
+                <input id="confirmarSenha" type="password" placeholder="Confirme a senha">
             </div>
 
             <button type="submit">Renovar</button>
@@ -43,6 +42,19 @@
             </a>
         </div>
     </div>
+
+    <script>
+        function validarSenha() {
+            var senha = document.getElementById("senha").value;
+            var confirmarSenha = document.getElementById("confirmarSenha").value;
+
+            if (senha != confirmarSenha) {
+                alert("As senhas não coincidem.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 
 </html>
